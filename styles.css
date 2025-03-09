@@ -1,0 +1,74 @@
+/* Basic reset for margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set basic styles for HTML and Body */
+  html, body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8;
+  }
+  
+  /* Container for main content */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Basic styles for headings */
+  h1, h2, h3 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  /* Basic link styles */
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Image responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Basic Button styles */
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Simple footer styling */
+  footer {
+    padding: 1rem 0;
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+    border-top: 1px solid #ddd;
+    margin-top: 2rem;
+  }
+  
