@@ -10,17 +10,22 @@
     font-size: 16px;
     font-family: Outfit, sans-serif;
     line-height: 1.6;
-    color: #a11313;
-    background-color: #f8f8f8;
-    text-align: center;
+    color: #260ca5;
+    background-color:hsl(212, 45%, 89%);
+    margin: 3vh;
+    padding: 8vh;
+    min-height: 100vh;
+    overflow: hidden;
   }
   
   /* Container for main content */
   .container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+    max-width: 300px;
+    margin: auto;
+    padding: 15px 5px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   /* Basic styles for headings */
@@ -28,6 +33,17 @@
     margin-bottom: 1rem;
     font-weight: bold;
     color: #222;
+    margin:  auto;
+    padding: 10px;
+    text-align: center;
+  }
+  p {
+    margin-bottom: 1rem;
+    color: #222;
+    margin:  auto;
+    padding: 10px;
+    padding-top: 0;
+    text-align: center;
   }
   
   /* Basic link styles */
@@ -42,9 +58,11 @@
   
   /* Image responsive */
   img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     display: block;
+    margin: 0 auto;
+    border-radius: 10px;
   }
   
   /* Basic Button styles */
@@ -73,3 +91,18 @@
     margin-top: 2rem;
   }
   
+/* Adjust layout for smaller screens */
+@media (max-width: 600px) {
+  body {
+    padding: 2vh 2vw; /* smaller padding for mobile */
+  }
+
+  .container {
+    width: 95%; /* slightly wider container on mobile */
+    max-width: none; 
+  }
+
+  img {
+    max-width: 100%; /* full-width images on mobile */
+  }
+}
