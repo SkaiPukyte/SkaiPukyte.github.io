@@ -8,10 +8,11 @@
   /* Set basic styles for HTML and Body */
   html, body {
     font-size: 16px;
-    font-family: Arial, sans-serif;
+    font-family: Outfit, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #a11313;
     background-color: #f8f8f8;
+    text-align: center;
   }
   
   /* Container for main content */
